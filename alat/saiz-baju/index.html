@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FTM by Ayot ada alamat baru</title>
+<link rel="canonical" href="https://ftmbyayot.senangcarisolutions.com/alat/saiz-baju/">
+<meta name="theme-color" content="#B83E68">
+<style>
+  :root { --bg:#F7F4F8; --ink:#2B2233; --muted:#6C6175; --accent:#B83E68; --accent-ink:#FFFFFF; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16111A; --ink:#F2EAF5; --muted:#B4A7BD; --accent:#F07CA0; --accent-ink:#2A0F1A; color-scheme: dark; } }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 15px; line-height: 1.6; padding: 0 16px 48px; }
+  .wrap { max-width: 560px; margin: 0 auto; padding-top: 72px; display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+  h1 { font-weight: 700; font-size: clamp(26px, 7vw, 36px); line-height: 1.15; margin: 0; }
+  p { margin: 0; color: var(--muted); }
+  button { min-height: 46px; padding: 0 22px; border: 0; border-radius: 99px; background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 700; cursor: pointer; }
+  button.alt { background: none; color: var(--accent); padding: 0; min-height: 44px; text-decoration: underline; }
+  a { color: var(--accent); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="wrap" id="tawar" style="padding-top:0" hidden>
+    <h1>FTM by Ayot ada alamat baru</h1>
+    <p id="ringkasan"></p>
+    <p>Tekan butang untuk bawa tanda awak ke <strong id="baru"></strong>. Data kekal dalam browser ini dan tidak dihantar kepada kami.</p>
+    <button type="button" id="pindah">Pindah sekarang</button>
+    <button type="button" class="alt" id="simpan">Simpan fail backup</button>
+    <p id="mesej" role="status" aria-live="polite"></p>
+  </div>
+  <noscript><p>FTM by Ayot kini di <a href="https://ftmbyayot.senangcarisolutions.com/alat/saiz-baju/">https://ftmbyayot.senangcarisolutions.com/alat/saiz-baju/</a>.</p></noscript>
+</main>
+<script src="/backup-core.js"></script>
+<script src="/pindah-core.js"></script>
+<script src="/pindah-lama.js"></script>
+</body>
+</html>
